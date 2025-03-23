@@ -8,7 +8,7 @@ async function solveEquation(equation) {
         }
 
         const requestPayload = {
-            model: "gpt-4o", //or gpt-3.5-turbo
+            model: "gpt-3.5-turbo", //or gpt-4o
             messages: [
                 {
                     role: "system",
