@@ -1,27 +1,26 @@
 # Algebraic Equation GPT
 
 This repo experiments with Computer image text recognition.
-Photo, pictures containing a Mathematics Equation is fed to the app.
-The local server implements Cloud Vision API to study the picture and extract the equation.
+Photos, images or pictures containing a Mathematics Equation is fed to the app.
+The local server implements Cloud Vision API to study the source and extract the equation.
 The extracted equation is fed to an LLM which then analyses and solves it.
 A comprehensive explanation together with the solution is output to the user.
 This is the Genesis version.
 
-<img src= "https://github.com/ironmanfpv/">
-<img src="https://github.com/ironmanfpv/" height="300" width="600">
-<img src="https://github.com/ironmanfpv/" height="300" width="600">
+<img src= "https://github.com/ironmanfpv/https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img%200.jpg">
+<img src="https://github.com/ironmanfpv/https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img%201.jpg" height="300" width="600">
+<img src="https://github.com/ironmanfpv/https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img%202.jpg" height="300" width="600">
 
 # SETUP STEPS: # 
 The following layout the steps to run a LOCAL HOSTED version of Algebraic Equation GPT.
-To try a WEB HOSTED version of Algebraic Equation GPT and SKIP the Image Text Extraction Capability, 
-Just read Section C and F. The rest of the sections may be skipped.
+To try a WEB HOSTED version of Algebraic Equation GPT and SKIP the Image Text Extraction Capability, read Section C and F. 
+The rest of the sections may be skipped.
 Alegebraic Equation GPT works independent of Text Extraction Capability.
 
 ## A. Set up Credentials ##
 
-1.  Ensure Node, NPM are installed.
-2.  Create a Google Cloud Project at http://cloud.google.com/
-3.  Click Console>Quick Access>APIs and Services>+ Enable API and Services>Choose Cloud Vision API
+1.  Create a Google Cloud Project at http://cloud.google.com/
+2.  Click Console>Quick Access>APIs and Services>+ Enable API and Services>Choose Cloud Vision API
 3.  In the Google Cloud console, go to menu\>API &Services\>Credentials.
 4.  Create your OAuth client ID : 
         Call it Web Client 1 (Name of your choice).
@@ -29,11 +28,11 @@ Alegebraic Equation GPT works independent of Text Extraction Capability.
         Authorised  JavaScript origins \> URL 1 : http://localhost:8000 
         Authorised  Redirect URIs \> URL 1 : http://localhost:8000/
 6.  Click Create or Save.
-7.  Note your CLient ID.
+7.  Note your Client ID.
 
 ## B. Generate Cloud Vision API keys ##
 
-1.  This step can be skipped if Text from Image recognition is not used.
+1.  This step can be skipped if Text from image recognition is not used.
 2.  Under API & Services\>Credentials
 3.  Create credentials \> API keys
 4.  Note your API keys
@@ -54,8 +53,9 @@ Alegebraic Equation GPT works independent of Text Extraction Capability.
 
 ## E. Procedure to running a local version of Algebriac Equation GPT ##
 
-1.  In VS code project tab, click on index.html, close all other terminals and nodes.
-2.  Call up a terminal.
+1.  In VS code, ensure Node, NPM are updated extensions.
+2.  In VS code project tab, click on index.html, close all other terminals and nodes.
+2.  Call up a new terminal.
 3.  In your working directory prompt, type node.
 4.  In your working directory prompt, install the http-server package by typing : npm install http-server
 5.  In your working directory prompt, start a web server: npx http-server -p 8000
