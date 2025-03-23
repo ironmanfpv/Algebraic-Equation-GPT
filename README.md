@@ -15,6 +15,7 @@ This is the Genesis version.
 Alegebraic Equation GPT works independent of Text Extraction Capability.
 
 - To run a WEB HOSTED version of Algebraic Equation GPT.
+
   Access https://ironmanfpv.github.io/Algebraic-Equation-GPT/ in browser.
   Section C and F is applies. The rest of the sections may be skipped.
 
