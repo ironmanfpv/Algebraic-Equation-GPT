@@ -19,8 +19,8 @@ async function solveEquation(equation) {
                     content: `Solve this equation: ${equation}`
                 }
             ],
-            max_tokens: 1000,
-            temperature: 0.7
+            max_tokens: 2000,
+            temperature: 0.8 //0.7
         };
 
         console.log('Sending request to OpenAI API...');
