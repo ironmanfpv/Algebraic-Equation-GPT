@@ -11,11 +11,16 @@ This is the Genesis version.
 <img src="https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img 1.jpg">
 <img src="https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img 2.jpg">
 
-# SETUP STEPS: # 
-The following layout the steps to run a LOCAL HOSTED version of Algebraic Equation GPT.
-To try a WEB HOSTED version of Algebraic Equation GPT and SKIP the Image Text Extraction Capability, read Section C and F. 
-The rest of the sections may be skipped.
+# SETUP STEPS: #
 Alegebraic Equation GPT works independent of Text Extraction Capability.
+
+- To run a WEB HOSTED version of Algebraic Equation GPT.
+  Access https://ironmanfpv.github.io/Algebraic-Equation-GPT/ in browser.
+  Section C and F is applies. The rest of the sections may be skipped.
+
+- To try a LOCALLY HOSTED version of Algebraic Equation GPT and have the Image Text Extraction Capability, read all sections. 
+
+
 
 ## A. Set up Credentials ##
 
