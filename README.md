@@ -8,8 +8,8 @@ A comprehensive explanation together with the solution is output to the user.
 This is the Genesis version.
 
 <img src= "https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img 0.jpg">
-<img src="https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img 1.jpg" height="300" width="600">
-<img src="https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img 2.jpg" height="300" width="600">
+<img src="https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img 1.jpg">
+<img src="https://github.com/ironmanfpv/Algebraic-Equation-GPT/blob/main/img/img 2.jpg">
 
 # SETUP STEPS: # 
 The following layout the steps to run a LOCAL HOSTED version of Algebraic Equation GPT.
